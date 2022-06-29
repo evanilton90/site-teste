@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Nunito:wght@200&family=Yellowtail&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    color: #1c1c1c;
+    font-weight: bold;
+}
+h1 h2 h3{
+    font-family: 'Asap', sans-serif;
+    color: #000000;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+}
+nav > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, serif;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
